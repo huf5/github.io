@@ -13,6 +13,37 @@ body, html {
 }
 
 /* HERO IMAGE*/
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0)), url("hero_image.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 350px;
+    font-weight: lighter;
+    transform: translate(-60%, -50%);
+    color: white;
+    font-size: 40px;
+}
+  
+.hero-text h2 {
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+
 .hero-text2 {
     text-align: left;
     position: absolute;
