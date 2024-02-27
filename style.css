@@ -13,37 +13,6 @@ body, html {
 }
 
 /* HERO IMAGE*/
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0)), url("images/hero_image.png");
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-    text-align: left;
-    position: absolute;
-    top: 50%;
-    left: 350px;
-    font-weight: lighter;
-    transform: translate(-60%, -50%);
-    color: white;
-    font-size: 40px;
-}
-  
-.hero-text h2 {
-    display: block;
-    font-size: 0.67em;
-    margin-block-start: 2.33em;
-    margin-block-end: 2.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    
-}
-
 .hero-text2 {
     text-align: left;
     position: absolute;
@@ -250,7 +219,7 @@ section{
 
 /*PARALLAX*/
 .parallax {
-  background-image: url("images/hero_image.png");
+  background-image: url("hero_image.png");
 
   /* Set a specific height. If you do want textual content in your parallax section you'll need to make sure that it properly fits the size you've alotted. You can opt not to set a height and just rely on it to cover (see background size below). */
   height: 600px;
